@@ -1,0 +1,5 @@
+@mixin flex($p1,$p2) {
+    display: flex;
+    justify-content: $p1;
+    align-items: $p2;
+}
