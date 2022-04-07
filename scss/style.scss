@@ -4,3 +4,77 @@
 @import 'global';
 @import 'mixin';
 @import 'class';
+
+.header{
+    background:rgb(30, 209, 185);
+    &-top{
+        padding: 25px 0px;
+        display: flex;
+        align-items: center;
+    }
+    &-nav{
+        margin-left: 170px;
+    }
+    &-menu{
+        display: flex;
+        &__list + &__list{
+            margin-left: 22px;
+        }
+        &__link{
+            color:$color-header-nav-link;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            &:hover{
+                color:#0067F4;
+            }
+        }
+    }
+    &-btn{
+        padding: 7px 13px;
+        margin-left: auto;
+        color: #0067F4;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        background-color:$color-main2;
+        transition: all .2s linear;
+        &:hover{
+            color:darksalmon;
+        }
+    }
+    &-inner{
+        @include flex;
+        align-items: center;
+    }
+    &__title{
+        font-size: 72px;
+        line-height: 108px;
+        max-width: 421px;
+        color:#fff;
+        font-weight: 700;
+    }
+    &__text{
+        color:#fff;
+        max-width: 533px;
+        margin-bottom: 31px;
+    }
+    &__link{
+        padding: 6px 15px 4px 18px;
+        text-transform: uppercase;
+        color:$color-header-button-static;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        border: 2px solid #FFFFFF;
+        border-radius: 50px;
+        transition:all .3s linear;
+        &:hover{
+            background-color: #fff;
+            color:$color-header-button-hover;
+        }
+    }
+    &__link + &__link{
+        margin-left: 30px;
+    }
+}
