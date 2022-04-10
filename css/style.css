@@ -583,3 +583,55 @@ p {
 .services-btn:hover {
   color: indianred;
 }
+
+.work {
+  padding: 80px 0px 140px;
+}
+.work__title {
+  text-align: center;
+  margin-bottom: 140px;
+}
+.work__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.work-buttons {
+  width: 500px;
+}
+.work__button {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: block;
+  background-color: transparent;
+  border: none;
+  margin-top: 28px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.work__button:focus {
+  color: #fff;
+  padding: 4px 55px;
+  background: -webkit-gradient(linear, left top, right top, from(#0372F1), to(#00F2FE));
+  background: linear-gradient(90deg, #0372F1 0%, #00F2FE 100%);
+  border-radius: 50px;
+}
+.work-images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.work__image {
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}

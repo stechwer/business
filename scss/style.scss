@@ -133,3 +133,44 @@
         }
     }
 }
+.work{
+    padding:80px 0px 140px;
+    &__title{
+        text-align: center;
+        margin-bottom:140px;
+    }
+    &__inner{
+        @include flex;
+    }
+    &-buttons{
+        width: 500px;
+    }
+    &__button{
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: block;
+        background-color: transparent;
+        border: none;
+        margin-top: 28px;
+        transition: all .2s linear;
+        &:focus{
+            color:#fff;
+            padding:4px 55px;
+            background: linear-gradient(90deg, #0372F1 0%, #00F2FE 100%);
+            border-radius: 50px;
+        }
+    }
+    &-images{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        gap:10px;
+    }
+    &__image{
+        margin: 0 auto;
+    }
+}
+.hide{
+    display: none;
+}
