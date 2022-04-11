@@ -174,3 +174,76 @@
 .hide{
     display: none;
 }
+.pricing{
+    padding: 82px 0px 150px;
+    background-color: #EAECEF;
+    &__title{
+        text-align: center;
+        margin-bottom:28px;
+    }
+    &__text{
+        text-align: center;
+        max-width: 596px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    &-item{
+        background: linear-gradient(22.76deg, #0372F1 21.05%, #68E0CF 94.69%);
+        width: 300px;
+        text-align: center;
+    
+        &__image{
+            margin: 0 auto;
+            height: auto;
+            margin-bottom:25px;
+        }
+        &__category{
+            display: block;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 36px;
+            color:$color-main2;
+            margin-bottom:9px;
+        }
+        &__sale{
+            display: block;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 40px;
+            color:$color-main2;
+            margin-bottom:24px;
+        }
+        &__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color:$color-main2;
+            max-width:211px;
+            margin: 0 auto;
+            margin-bottom:25px;
+        }
+    }
+    &-item:nth-child(1){
+        padding: 42px 0px 27px;
+    }
+    &-item:nth-child(2){
+        padding: 19px 0px 27px;
+    }
+    &-item:nth-child(3){
+        padding:21px 0px 27px;
+    }
+    &-btn{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #0067F4;
+        padding:6px 13px 4px;
+        background:$color-main2;
+        border-radius: 50px;
+    }
+}
