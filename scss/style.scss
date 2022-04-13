@@ -344,3 +344,40 @@
         margin-left:4px;
     }
 }
+.team{
+    padding:95px 0px 176px;
+    text-align: center;
+    &__title{
+        line-height: 82px;
+        margin-bottom: 17px;
+    }
+    &__text{
+        max-width: 596px;
+        margin: 0 auto;
+        margin-bottom: 96px;
+    }
+    &__inner{
+        @include flex;
+    }   
+    &-item{
+        width: 300px;
+    }
+    &-content{
+        background: #FFFFFF;
+        box-shadow: 1.46958e-15px 24px 48px rgba(51, 51, 51, 0.184), inset -4.0495e-16px -6.61333px 6.61333px #F0F0F0, inset 4.0495e-16px 6.61333px 6.61333px #FFFFFF;
+        width: 100%;
+        padding:20px 53px 22px;
+        &__name,&__work{
+            display: block;
+        }
+        &__name{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__work{
+            color: #0370F3;
+            text-transform: capitalize;
+        }
+    }
+}
