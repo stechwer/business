@@ -247,3 +247,16 @@
         border-radius: 50px;
     }
 }
+.about{
+    padding:83px 0px 95px;
+    text-align: center;
+    &__title{
+        font-size:45px;
+        width: 100%;
+        max-width: 775px;
+        margin: 0 auto;
+    }
+    &-image{
+        margin: 0 auto;
+    }
+}

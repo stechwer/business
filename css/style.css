@@ -424,7 +424,7 @@ p {
 .intro {
   color: #0370F3;
   font-family: "Poppins", sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
@@ -711,4 +711,18 @@ p {
   padding: 6px 13px 4px;
   background: #FFFFFF;
   border-radius: 50px;
+}
+
+.about {
+  padding: 83px 0px 95px;
+  text-align: center;
+}
+.about__title {
+  font-size: 45px;
+  width: 100%;
+  max-width: 775px;
+  margin: 0 auto;
+}
+.about-image {
+  margin: 0 auto;
 }
