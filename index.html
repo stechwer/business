@@ -12,54 +12,73 @@
 <body>
     <div class="page">
         <header class="header">
-            <div class="container">
-                <div class="header-top">
-                    <a href="#" class="header-logo">
-                        <img src="images/logo.svg" alt="logo" class="logo">
-                    </a>
-                    <nav class="header-nav">
-                        <ul class="header-menu">
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    HOME
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    SERVICES
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    PORTFOLIO
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    PRICING
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    ABOUT
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    TEAM
-                                </a>
-                            </li>
-                            <li class="header-menu__list">
-                                <a href="#" class="header-menu__link">
-                                    CONTACT
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <a href="#" class="header-btn">
-                        DOWNLOAD
-                    </a>
+            <div class="header-fixed-menu">
+                <div class="container">
+                    <div class="header-top">
+                        <a href="#" class="header-logo">
+                            <img src="images/logo.svg" alt="logo" class="logo">
+                        </a>
+                        <nav class="header-nav">
+                            <ul class="header-menu">
+                                <li class="header-menu__list">
+                                    <a href="#" class="header-menu__link">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#services" class="header-menu__link">
+                                        SERVICES
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#portfolio" class="header-menu__link">
+                                        PORTFOLIO
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#pricing" class="header-menu__link">
+                                        PRICING
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#about" class="header-menu__link">
+                                        ABOUT
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#team" class="header-menu__link">
+                                        TEAM
+                                    </a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="#contact" class="header-menu__link">
+                                        CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#" class="header-btn">
+                            DOWNLOAD
+                        </a>
+                        <div class="header-burger">
+                            <input type="checkbox" id="active">
+                            <label for="active" class="menu-btn"><span></span></label>
+                            <label for="active" class="close"></label>
+                            <div class="wrapper">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#pricing">Pricing</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="container">
                 <div class="header-inner">
                     <div class="header-content">
                         <h1 class="header__title">
@@ -80,7 +99,7 @@
             </div>
         </header>
         <main class="main">
-            <section class="services">
+            <section class="services" id="services">
                 <div class="container">
                     <h3 class="services__title title">
                         Our Services
@@ -138,7 +157,7 @@
                     </div>
                 </div>
             </section>
-            <section class="work">
+            <section class="work" id="portfolio">
                 <div class="container">
                     <h3 class="work__title title">
                         Featured Work
@@ -184,7 +203,7 @@
                     </div>
                 </div>
             </section>
-            <section class="pricing">
+            <section class="pricing" id="pricing">
                 <div class="container">
                     <h3 class="pricing__title title">
                         Pricing Plans
@@ -242,7 +261,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
                     <div class="about__inner">
                         <div class="about-content">
@@ -327,7 +346,7 @@
                     </div>
                 </div>
             </section>
-            <section class="team">
+            <section class="team" id="team">
                 <div class="container">
                     <h3 class="team__title title">
                         Meet The Team
@@ -446,7 +465,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="container">
                 <img src="images/tv.svg" alt="tv" class="footer-image">
                 <ul class="footer-menu">
