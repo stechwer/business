@@ -503,3 +503,28 @@
         }
     }
 }
+.footer{
+    padding: 80px 0px;
+    background: #121B2E;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    &-image{
+        margin: 0 auto;
+        margin-bottom:33px;
+    }
+    &-menu{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 22px;
+        &__list+&__list{
+            margin-left:20px;
+        }
+    }
+    &-phone__number{
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+}

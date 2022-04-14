@@ -1014,3 +1014,33 @@ span {
   text-transform: uppercase;
   padding: 8px 28px;
 }
+
+.footer {
+  padding: 80px 0px;
+  background: #121B2E;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.footer-image {
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 22px;
+}
+.footer-menu__list + .footer-menu__list {
+  margin-left: 20px;
+}
+.footer-phone__number {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
